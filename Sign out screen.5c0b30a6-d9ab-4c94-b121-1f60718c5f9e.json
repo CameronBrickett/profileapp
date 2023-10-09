@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "5c0b30a6-d9ab-4c94-b121-1f60718c5f9e",
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "style": {
+                    "position": "absolute",
+                    "left": "24.986669921875%",
+                    "top": "17.10270048081428%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "3437fd0f-a687-45e3-8662-411c6525d86e",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner2"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -272,71 +302,6 @@
             "id": "76159b91-1d90-4f4c-bd15-1688fe9ed00b",
             "thunkableVersion": 421,
             "name": "sign out"
-        },
-        {
-            "type": "Label",
-            "translatedName": "Label",
-            "reactType": "Text",
-            "properties": {
-                "Text": "This is my app",
-                "FontSize": 18,
-                "CustomFont": "",
-                "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
-                "Height": 45,
-                "Width": 311,
-                "Visible": true,
-                "X": 32,
-                "Y": 43,
-                "RelativeX": 32,
-                "RelativeY": 43,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "color": "rgba(0, 0, 0, 1)",
-                    "fontSize": 18,
-                    "fontStyle": "normal",
-                    "textShadowOffset": {},
-                    "letterSpacing": 0,
-                    "textDecorationLine": "none",
-                    "textDecorationStyle": "solid",
-                    "textDecorationColor": "rgba(0, 0, 0, 1)",
-                    "writingDirection": "auto",
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "flexWrap": "wrap",
-                    "borderWidth": 0,
-                    "borderRadius": 0,
-                    "borderColor": "rgba(236, 237, 237, 1)",
-                    "borderStyle": "solid",
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "37.360005696614586%",
-                    "top": "6.997749294298163%",
-                    "lineHeight": 1,
-                    "display": "flex"
-                },
-                "ParentId": "5c0b30a6-d9ab-4c94-b121-1f60718c5f9e",
-                "position": "absolute",
-                "edgeOffsets": 43,
-                "children": "This is my app"
-            },
-            "children": [],
-            "id": "084eca3f-6272-4c5f-a0ff-238a14c8c377",
-            "thunkableVersion": 421,
-            "name": "Label5"
         }
     ],
     "id": "5c0b30a6-d9ab-4c94-b121-1f60718c5f9e",
